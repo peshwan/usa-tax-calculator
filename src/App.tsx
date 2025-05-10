@@ -7,7 +7,7 @@ import { About } from './pages/About'; // Changed Contact to About
 
 function App() {
   return (
-    <Router basename="/usa-tax-calculator">
+    <Router basename="/">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

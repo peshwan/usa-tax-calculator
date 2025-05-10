@@ -12,9 +12,9 @@ export const Home: React.FC = () => {
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-2"> {/* Responsive font size */}
           2025-2026 USA Tax Calculator
         </h1>
-        <p className="text-base sm:text-lg text-gray-600"> {/* Responsive font size */}
+        <h2 className="text-base sm:text-lg text-gray-600"> {/* Responsive font size */}
           Accurate tax calculations for the USA tax system
-        </p>
+        </h2>
       </header>
 
       <CountrySelector 

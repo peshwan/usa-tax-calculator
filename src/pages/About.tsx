@@ -3,7 +3,7 @@ import { Card } from '../components/Card';
 import { Mail, Info } from 'lucide-react'; // Added Info icon, removed Phone, MapPin
 
 export const About: React.FC = () => {
-  const contactEmail = 'oliverr1988@gmail.com';
+  const contactEmail = 'contact@usataxcalculator.info';
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">

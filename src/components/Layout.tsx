@@ -21,7 +21,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="mb-4 md:mb-0">
               <p className="text-sm">
                 © 2025 <Link to="/" className="hover:text-blue-300 transition-colors">USA Tax Calculator</Link>. For informational purposes only. <br />
-                Contact: <a href="mailto:oliverr1988@gmail.com" className="hover:text-blue-300 transition-colors">oliverr1988@gmail.com</a>
+                Contact: <a href="contact@usataxcalculator.info" className="hover:text-blue-300 transition-colors">contact@usataxcalculator.info</a>
               </p>
             </div>
             <div className="flex space-x-6">

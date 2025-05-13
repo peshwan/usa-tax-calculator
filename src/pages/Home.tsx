@@ -13,7 +13,7 @@ export const Home: React.FC = () => {
           2025-2026 USA Tax Calculator
         </h1>
         <h2 className="text-base sm:text-lg text-gray-600"> {/* Responsive font size */}
-          Accurate tax calculations for the USA tax system
+        Simple Tax Calculator for USA
         </h2>
       </header>
 

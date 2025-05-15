@@ -8,4 +8,13 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET',
+    }
+  },
+  build: {
+    assetsInclude: ['**/*.xml'],
+  }
 });

@@ -13,8 +13,5 @@ export default defineConfig({
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET',
     }
-  },
-  build: {
-    assetsInclude: ['**/*.xml'],
   }
 });
